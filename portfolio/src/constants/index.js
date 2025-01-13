@@ -75,6 +75,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Residency Road Sadar, Nagpur ",
-  phoneNo: "+91 9370291998 ",
+  // phoneNo: "+91 9370291998 ",
   email: "saniyaimroze@gmail.com",
 };
