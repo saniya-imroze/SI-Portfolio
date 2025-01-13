@@ -3,74 +3,78 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a frontend engineer with expertise in React, Next.js, and Node.js, focused on building scalable and intuitive web applications. With hands-on experience in JavaScript, Vue.js, APIs, and cloud tools like Azure and AWS, I deliver robust solutions tailored to client needs.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+My work includes developing tools for automated claim management and scheduling, showcasing my ability to simplify complex workflows. I constantly explore innovative solutions to drive impactful results.
+
+As a community leader and mentor, I have organized 50+ meetups and workshops, empowering developers and fostering collaboration within the tech ecosystem.`;
+
+export const ABOUT_TEXT = `I am a dedicated frontend engineer specializing in creating intuitive and scalable web applications. With expertise in React, Next.js, and Node.js, I develop end-to-end utilities and deliver reliable solutions with a strong foundation in JavaScript, Vue.js, and API integrations. I’ve contributed to key projects such as CLAIMExpert(SM) and care edge, which streamlines insurance claims management, and the Inbound Scheduling Project, automating complex tasks and care rating application. My passion extends beyond engineering into data systems, cloud technologies, and generative AI, exploring their potential to innovate industries. As a Co-Organizer of Google Developer Group Nagpur and a Women Techmakers Ambassador, I actively contribute to the tech ecosystem by speaking at, facilitating, and organizing over 50 meetups and workshops, mentoring aspiring developers, and guiding their career paths.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jun 2024 - Present",
+    role: "Senior Software Engineer",
+    company: "Persistent Systems",
+    description: `Collaborated on CLAIMExpert(SM) and the Inbound Scheduling Project, developing and optimizing insurance claim management tools to enhance performance and user experience, achieving a 60-70% improvement in website efficiency. Engaged directly with clients to align solutions with business requirements, ensuring zero defects and delivering high-impact results. Currently contributing to the CareEdge project, a ratings application leveraging React, TypeScript, Node.js, and Next.js, to deliver scalable and efficient solutions.`,
+    technologies: ["Javascript", "React.js", "Next.js", "SQL Server","Typescript","Dot Net", "Rest API"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
+    year: " Jun 2022 - Jun 2024",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Persistent Systems",
+    description: `Skilled in developing and deploying software solutions with expertise in Azure services like Data Factory, SQL, and Analysis. Proficient in maintaining source code with Git/GitHub and ensuring seamless deployment on Azure Cloud. Experienced in agile project management, contributing to sprints, and adhering to Scrum principles for efficient iterative development.`,
+    technologies: ["Azure AWS - Cloud", "SQL Server", "Vue.js", "Python"],
+  },
+  {
+    year: "May 2021 - Jan 2022",
+    role: "Internship",
+    company: "Leading India.ai",
+    description: `Conducted Research and analyzed datasets utilizing the Convolution Neural Networks(CNN) as a part of deep learning methodologies. Used Python to train, test and validate datasets for image classification. Used these methodologies for real-world scenarios, enhancing skills in data analysis and model training.`,
+    technologies: ["Python", "HTML CSS", "Javascript", "Tensor Flow", "PyTorch","Open CV"],
+  },
+  {
+    year: "Jul 2021 - Oct 2021",
+    role: "UI-UX Designer (Part Time)",
+    company: "TechBairn",
+    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Developed Frontend with UI-UX on Figma. Worked closely with product managers to prioritize features and enhancements.`,
+    technologies: ["Javascript", "React.js", "Node.js", "Figma"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Care Edge - Rating Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Currently working on CareEdge, a live ratings and analytics platform designed to provide real-time insights for better decision-making. Built using React, TypeScript, Node.js, and Next.js, the project focuses on delivering high-performance, scalable solutions with seamless user experience and efficient backend systems.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Typescript"],
   },
   {
-    title: "Task Management App",
+    title: "CSQ - Insurance management",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "CLAIMExpert(SM) is a comprehensive health advocacy platform developed for MyMedRisk, offering expert-based claim management tools to streamline and automate insurance claims processing. It enhances operational efficiency, ensures zero defects, and delivers impactful, user-focused solutions.",
+    technologies: ["HTML", "CSS", "Vue.js", "SQL server","Javascript", "Rest API"],
   },
   {
-    title: "Portfolio Website",
+    title: "Quattro System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "I worked on a comprehensive managed physical medicine program, where I developed a dynamic and responsive user interface using JavaScript and JQuery. On the backend, I implemented a microservices architecture with .NET and utilized MS SQL for efficient data management, significantly enhancing patient care and improving operational efficiency.",
+    technologies: ["HTML", "CSS", "JQuery", "Dot Net","SQL Server","Javascript"],
   },
   {
-    title: "Blogging Platform",
+    title: "Image Classification",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "I developed an image classification system using Convolutional Neural Networks (CNN) to classify fire, water, and normal images with 92% accuracy. I also created a JavaScript website that allows users to upload images and receive predictions on whether the image belongs to the fire, water, or normal category, along with text output.",
+    technologies: ["HTML", "CSS", "Javascript", "Python"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Residency Road Sadar, Nagpur ",
+  phoneNo: "+91 9370291998 ",
+  email: "saniyaimroze@gmail.com",
 };
